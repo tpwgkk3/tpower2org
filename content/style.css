@@ -1339,5 +1339,32 @@ button:not(:disabled) {
     .btn-center {
   text-align: center;
 }
+.site-footer {
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.site-footer a {
+  color: #555;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.footer-copyright {
+  margin: 0;
+}
 
 
